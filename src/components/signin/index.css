@@ -1,0 +1,134 @@
+.p-10 {
+  padding: 2.5rem !important;
+}
+.p-lg-15 {
+  padding: 3.75rem !important;
+}
+.w-lg-50 {
+  width: 50% !important;
+}
+.rounded {
+  border-radius: 0.475rem !important;
+}
+.text-center {
+  text-align: center !important;
+}
+.mb-10 {
+  margin-bottom: 2.5rem !important;
+}
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+.text-dark {
+  color: #000000 !important;
+}
+.mb-3 {
+  margin-bottom: 0.75rem !important;
+}
+h1,
+.h1 {
+  font-size: 1.75rem;
+}
+.text-gray-400 {
+  color: #b5b5c3 !important;
+}
+
+.fw-bold {
+  font-weight: 500 !important;
+}
+.fs-4 {
+  font-size: 1.25rem !important;
+}
+.mb-7 {
+  margin-bottom: 1.75rem !important;
+}
+.fs-6 {
+  font-size: 1.075rem !important;
+}
+label {
+  display: inline-block;
+}
+.form-control.form-control-solid {
+  background-color: #f5f8fa;
+  border-color: #f5f8fa;
+  color: #5e6278;
+  transition: color 0.2s ease, background-color 0.2s ease;
+}
+.form-control {
+  box-shadow: none !important;
+}
+.form-control-lg {
+  min-height: calc(1.5em + 1.65rem + 2px);
+  padding: 0.825rem 1.5rem;
+  font-size: 1.15rem;
+  border-radius: 0.475rem;
+}
+.form-control {
+  display: block;
+  width: 100%;
+}
+.text-muted {
+  color: #000000 !important;
+  font-size: 18px;
+}
+.mb-10 {
+  margin-bottom: 2.5rem !important;
+}
+.text-center {
+  text-align: center !important;
+}
+.text-muted {
+  color: #000000 !important;
+  font-size: 18px;
+}
+.justify-content-center {
+  justify-content: center !important;
+}
+.d-flex {
+  display: flex !important;
+}
+.btn.btn-flex {
+  display: inline-flex;
+  align-items: center;
+}
+.btn {
+  outline: none !important;
+}
+.flex-center {
+  justify-content: center;
+  align-items: center;
+}
+.flex-column {
+  padding-top: 50px;
+}
+.bton {
+  background-color: #000000;
+  border: none;
+  color: #fff;
+  border-radius: 40px;
+  font-family: "Poppins", sans-serif;
+  font-size: 21px;
+  font-weight: 700;
+  width: 200px;
+  height: 56px;
+}
+.bton:hover {
+  background-color: #fdcb6e;
+}
+.cta .btn {
+  font-family: "Poppins", sans-serif;
+  width: 200px;
+  height: 56px;
+  border-radius: 40px;
+  background-color: #ffffff;
+  border: 2px solid #000000;
+}
+.cta .btn:hover {
+  font-family: "Poppins", sans-serif;
+  width: 200px;
+  height: 56px;
+  border-radius: 40px;
+  background-color: #e0e0e0;
+}

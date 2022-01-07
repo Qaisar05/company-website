@@ -1,0 +1,31 @@
+.feature h3 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-size: 54px;
+}
+.feature h4 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: 40px;
+}
+.feature p {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+  color: #747474;
+}
+.feature .bton {
+  background-color: #000000;
+  border: none;
+  color: #fff;
+  border-radius: 40px;
+  font-family: "Poppins", sans-serif;
+  font-size: 32px;
+  font-weight: 700;
+  width: 270px;
+  height: 82px;
+}
+.feature .bton:hover {
+  background-color: #fdcb6e;
+}

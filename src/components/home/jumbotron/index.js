@@ -4,18 +4,14 @@ import './index.css';
 
 export default () =>{
     return (
-        <Jumbotron fluid className="jumbo border rounded">
-            <div className="row">
-                <div className="jumbotron-text float-right text-center col-md-5 offset-md-6">
-                    <div className="jumbotron-header">Company Website</div>
-                    <div className="row">
-                        <div className="col-md-8 offset-md-2">
-                            Company <b>mission</b> and <b>vision</b> goes here.
-                        </div>
-                    </div>
-                </div>
-            </div>
-            
-        </Jumbotron>
+        <section id="hero" className="d-flex align-items-center">
+        <div className="container d-flex flex-column align-items-center justify-content-center" data-aos="fade-up">
+          <h1>Experience the power of video ads
+          </h1>
+          <h2>To represent a shop
+          </h2>
+          <img src="assets/imgs/header.png" className="img-fluid hero-img" alt="" data-aos="zoom-in" data-aos-delay="150"></img>
+        </div>
+        </section>
     )
 }

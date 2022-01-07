@@ -1,0 +1,139 @@
+.aside-fixed .aside {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 101;
+  overflow: hidden;
+}
+.aside.aside-light {
+  background-color: #ffffff;
+}
+.aside {
+  width: 265px;
+  transition: width 0.3s ease;
+}
+.aside {
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 0 28px 0 rgb(82 63 105 / 5%);
+  padding: 0;
+}
+.aside .aside-logo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 65px;
+  padding: 0 25px;
+}
+.flex-column-auto {
+  flex: none;
+}
+.h-25px {
+  height: 25px !important;
+}
+img,
+svg {
+  vertical-align: middle;
+}
+.aside .aside-menu {
+  width: 265px;
+}
+.flex-column-fluid {
+  flex: 1 0 auto;
+}
+element.style {
+  height: 371px;
+}
+.hover-scroll-overlay-y {
+  overflow-y: hidden;
+  position: relative;
+  --scrollbar-space: 0.25rem;
+}
+@media (min-width: 992px) .my-lg-5 {
+  margin-top: 1.25rem !important;
+  margin-bottom: 1.25rem !important;
+}
+.menu-column {
+  flex-direction: column;
+  width: 100%;
+}
+.menu,
+.menu-wrapper {
+  display: flex;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+.aside-menu .menu-item {
+  padding: 0;
+}
+.aside-menu .menu .menu-item .menu-link,
+.aside-menu .menu .menu-item .menu-content {
+  padding-left: 25px;
+  padding-right: 25px;
+}
+.menu-state-bullet-primary .menu-item .menu-link.active {
+  transition: color 0.2s ease, background-color 0.2s ease;
+}
+.menu-state-title-primary .menu-item .menu-link.active {
+  color: #009ef7;
+}
+.aside-menu .menu-item .menu-link {
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+}
+.menu-title-gray-800 .menu-item .menu-link {
+  color: #000000;
+}
+.menu-item .menu-link {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  flex: 0 0 100%;
+  transition: none;
+  outline: none !important;
+}
+.aside-menu .menu-item .menu-icon {
+  justify-content: flex-start;
+}
+
+.menu-item .menu-link .menu-icon {
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  width: 2rem;
+  margin-right: 0.5rem;
+}
+.menu-title-gray-800 .menu-item .menu-link {
+  color: #000000;
+}
+.menu-title-gray-800 .menu-item .menu-link .menu-title {
+  color: #000000;
+}
+
+.aside-light .menu .menu-title {
+  font-weight: 500;
+  font-size: 14px;
+}
+.menu-item .menu-link .menu-title {
+  display: flex;
+  align-items: center;
+  flex-grow: 1;
+}
+.aside-light .menu .menu-title {
+  font-weight: 500;
+  font-size: 14px;
+}
+.menu-item .menu-link .menu-title {
+  display: flex;
+  align-items: center;
+  flex-grow: 1;
+}
+.menu,
+.menu-wrapper {
+  display: flex;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}

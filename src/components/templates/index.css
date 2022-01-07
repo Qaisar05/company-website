@@ -1,0 +1,59 @@
+.templates {
+  background: #ffffff;
+  padding: 60px 0;
+}
+.templates h4 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+}
+.templates .btn {
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+  font-weight: 400px;
+}
+.checked {
+  color: orange;
+}
+.templates p {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  color: #747474;
+}
+.templates .bton-2 {
+  background-color: #ffffff;
+  border-style: calc(2);
+  border-color: #000;
+  color: rgb(0, 0, 0);
+  border-radius: 40px;
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  width: 160px;
+  height: 54px;
+}
+.templates .bton-2:hover {
+  background-color: #000000;
+  border-style: calc(2);
+  border-color: #000;
+  color: rgb(255, 255, 255);
+  border-radius: 40px;
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  width: 160px;
+  height: 54px;
+}
+.btn.btn-outline-dark {
+  color: #000000;
+  border-color: #e5e5e5 !important;
+  background-color: #ffffff;
+  height: auto;
+}
+.btn.btn-outline-dark:hover {
+  color: #000000;
+  border-color: #e5e5e5 !important;
+  background-color: #e5e5e5;
+  height: auto;
+}

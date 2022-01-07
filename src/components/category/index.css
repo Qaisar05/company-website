@@ -1,0 +1,56 @@
+.category {
+  background: #bdf1e5;
+  padding: 60px 0;
+}
+.category h3 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-size: 54px;
+}
+.category p {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+}
+.category .member {
+  text-align: center;
+  margin-bottom: 20px;
+  background: #343a40;
+  position: relative;
+  overflow: hidden;
+}
+.category .bton {
+  background-color: #000000;
+  border: none;
+  color: #fff;
+  border-radius: 40px;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  width: 160px;
+  height: 54px;
+}
+.category .bton-2 {
+  background-color: #bdf1e5;
+  border-style: calc(2);
+  border-color: #000;
+  color: rgb(0, 0, 0);
+  border-radius: 40px;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  width: 160px;
+  height: 54px;
+}
+.category .bton-2:hover {
+  background-color: #000000;
+  border-style: calc(2);
+  border-color: #000;
+  color: rgb(255, 255, 255);
+  border-radius: 40px;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  width: 160px;
+  height: 54px;
+}

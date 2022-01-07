@@ -1,0 +1,32 @@
+.benefits .content + .content {
+  margin-top: 100px;
+}
+.benefits h2 {
+  font-weight: 700;
+  font-size: 54px;
+}
+.benefits .content h3 {
+  font-weight: 600;
+  font-size: 40px;
+}
+.benefits p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+  color: #747474;
+}
+.features .content ul {
+  list-style: none;
+  padding: 0;
+}
+.features .content ul li {
+  padding-bottom: 10px;
+}
+.features .content ul i {
+  font-size: 20px;
+  padding-right: 4px;
+  color: #3b4ef8;
+}
+.features .content p:last-child {
+  margin-bottom: 0;
+}

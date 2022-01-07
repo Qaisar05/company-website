@@ -1,0 +1,60 @@
+.header-fixed.toolbar-fixed .header {
+  box-shadow: none;
+}
+.header-fixed .header {
+  position: fixed;
+  top: 0;
+  right: 0;
+  z-index: 100;
+  background-color: #ffffff;
+  height: 65px;
+  padding: 0;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+.align-items-stretch {
+  align-items: stretch !important;
+}
+.justify-content-between {
+  justify-content: space-between !important;
+}
+
+.d-flex {
+  display: flex !important;
+}
+.container,
+.container-fluid,
+.container-xxl,
+.container-xl,
+.container-lg,
+.container-md,
+.container-sm {
+  width: 100%;
+}
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+.flex-shrink-0 {
+  flex-shrink: 0 !important;
+}
+.ms-lg-3 {
+  margin-left: 0.75rem !important;
+}
+.symbol {
+  display: inline-block;
+  flex-shrink: 0;
+  position: relative;
+  border-radius: 0.475rem;
+}
+.cursor-pointer {
+  cursor: pointer;
+}
+.symbol.symbol-md-40px > img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}

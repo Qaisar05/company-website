@@ -1,0 +1,36 @@
+.yellow {
+  margin-top: 50px;
+  background: #fee5b7;
+  padding: 60px 0;
+}
+.yellow h3 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-size: 54px;
+}
+.yellow p {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-size: 36px;
+}
+.yellow .bton {
+  background-color: #000000;
+  border: none;
+  color: #fff;
+  border-radius: 40px;
+  font-family: "Poppins", sans-serif;
+  font-size: 32px;
+  font-weight: 700;
+  width: 270px;
+  height: 82px;
+}
+.yellow .bton:hover {
+  background-color: #fdcb6e;
+  color: rgb(255, 255, 255);
+  border-radius: 40px;
+  font-family: "Poppins", sans-serif;
+  font-size: 32px;
+  font-weight: 700;
+  width: 270px;
+  height: 82px;
+}

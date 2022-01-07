@@ -1,0 +1,90 @@
+.connect {
+  margin-top: 50px;
+}
+.connect h6 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: 30px;
+}
+.connect p {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+  color: #747474;
+}
+.connect .social-links a {
+  font-size: 18px;
+  display: inline-block;
+  background: #292929;
+  color: #fff;
+  line-height: 1;
+  padding: 8px 0;
+  margin-right: 4px;
+  border-radius: 4px;
+  text-align: center;
+  width: 36px;
+  height: 36px;
+  transition: 0.3s;
+}
+.connect .social-links a:hover {
+  font-size: 18px;
+  display: inline-block;
+  background: #fdcb6e;
+  color: #fff;
+  line-height: 1;
+  padding: 8px 0;
+  margin-right: 4px;
+  border-radius: 4px;
+  text-align: center;
+  width: 36px;
+  height: 36px;
+  transition: 0.3s;
+}
+.form-control-solid {
+  background-color: rgb(221, 221, 221);
+  border: none;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  height: 50px;
+  width: 327px;
+  border-radius: 40px;
+}
+.connect .btn {
+  background-color: #000;
+  color: #fff;
+  height: 50px;
+  width: 100px;
+  border-radius: 40px;
+}
+.connect .btn:hover {
+  background-color: #fdcb6e;
+  color: #fff;
+  height: 50px;
+  width: 100px;
+  border-radius: 40px;
+}
+
+.connect .home-newsletter .single .form-control {
+  height: 50px;
+  width: 327px;
+  background-color: #e5e5e5;
+  border-color: transparent;
+  border-radius: 40px;
+  border-top-right-radius: 40;
+  border-bottom-right-radius: 40;
+}
+.home-newsletter .single .form-control:focus {
+  box-shadow: none;
+  border-color: #c4c4c4;
+}
+.home-newsletter .single .btn {
+  margin-inline: 10px;
+  min-height: 50px;
+  border-radius: 40px;
+  background: #000000;
+  color: #fff;
+}
